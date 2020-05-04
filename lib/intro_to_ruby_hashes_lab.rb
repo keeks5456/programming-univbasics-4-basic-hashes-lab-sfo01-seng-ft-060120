@@ -1,5 +1,6 @@
 def new_hash
   return dogs = Hash.new
+  # or just doing dogs = {} works fine
 end
 
 def my_hash
@@ -11,10 +12,10 @@ def my_hash
 end
 
 def pioneer
- return :name => "Grace Hopper"
+ return {:name => "Grace Hopper"}
 end
 
 
 def id_hash_generator(number)
-  return :id => number
+  return {:id => number}
 end
